@@ -18,7 +18,7 @@ def random_yishuv_name():
 
     name = f'{first} {second}'
 
-    if random.randint(1, 10) == 10:
+    if random.randint(1, 15) == 10:
         name += ' עילית'
 
     return name
